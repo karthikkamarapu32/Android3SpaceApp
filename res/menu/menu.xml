@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/axis_direction_but"
+        android:title="Set Axis Directions" />
+    <item android:id="@+id/led_color_but"
+        android:title="Set LED Color" />
+    <item android:id="@+id/sensor_info_but"
+        android:title="Sensor Info" />
+    <item android:id="@+id/quit_but"
+        android:title="Quit" />
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Set Axis Directions"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <Spinner
+	        android:id="@+id/axis_direction_spinner"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:prompt="@string/axis_direction_items"/>
+
+	    <CheckBox
+	        android:id="@+id/neg_x_box"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Negate X Axis" />
+
+	    <CheckBox
+	        android:id="@+id/neg_y_box"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Negate Y Axis" />
+
+	    <CheckBox
+	        android:id="@+id/neg_z_box"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Negate Z Axis" /> 
+	    <Button
+	        android:id="@+id/set_axis_dir_but"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Apply Axis Direction" />
+
+	</LinearLayout>
+    
+    
+    <RelativeLayout 
+        android:id="@+id/InnerRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+        android:id="@+id/axis_direction_to_3d_but"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Return To 3D View" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

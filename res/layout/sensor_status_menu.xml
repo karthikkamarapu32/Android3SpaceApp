@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Sensor Status"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+		<View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp">
+    	</View>
+	    
+	    <TextView
+	        android:id="@+id/serial_number_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Sensor Serial Number"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+	        android:id="@+id/serial_number_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Sensor Serial Number"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp">
+    	</View>
+	    <TextView
+	        android:id="@+id/software_version_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Firmware Software Version"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+	        android:id="@+id/software_version_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Firmware Software Version"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp">
+    	</View>
+	    <TextView
+	        android:id="@+id/hardware_version_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Firmware Hardware Version"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+	        android:id="@+id/hardware_version_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Firmware Hardware Version"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp">
+    	</View>
+	    <TextView
+	        android:id="@+id/battery_status_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Battery Status"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+	        android:id="@+id/battery_status_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Battery Status"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp">
+    	</View>
+	    <TextView
+	        android:id="@+id/battery_charge_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Battery Charge"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+	        android:id="@+id/battery_charge_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Battery Charge"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	</LinearLayout>
+    
+    
+    <RelativeLayout 
+        android:id="@+id/InnerRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+        android:id="@+id/sensor_status_to_3d_but"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Return To 3D View" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

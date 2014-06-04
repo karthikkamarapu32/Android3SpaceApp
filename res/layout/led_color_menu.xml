@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Set LED Color"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Red"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <SeekBar
+	        android:id="@+id/red_slider"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+	    
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Green"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <SeekBar
+	        android:id="@+id/green_slider"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+	    
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Blue"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <SeekBar
+	        android:id="@+id/blue_slider"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+	</LinearLayout>
+    
+    
+    <RelativeLayout 
+        android:id="@+id/InnerRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+        android:id="@+id/led_color_to_3d_but"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Return To 3D View" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>
